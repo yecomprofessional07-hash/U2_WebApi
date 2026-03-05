@@ -39,6 +39,26 @@ namespace WebCRUD_api.Features.Abonados
                 Email = "wwwwww",
                 Activo = false
             };
+            Abonado abonado4 = new Abonado
+            {
+                Id = 4,
+                Nombre = "Ana Martinez",
+                Identidad = "0801199012348",
+                Telefono = "6666-6666",
+                Saldo = 25.00,
+                Email = "vvvvvv",
+                Activo = true
+            };
+            Abonado abonado5 = new Abonado
+            {
+                Id = 5,
+                Nombre = "Luis Rodriguez",
+                Identidad = "0801199012349",
+                Telefono = "5555-5555",
+                Saldo = 10.00,
+                Email = "uuuuuu",
+                Activo = true
+            };
             domain = new AbonadosDomainService();
         }
 
