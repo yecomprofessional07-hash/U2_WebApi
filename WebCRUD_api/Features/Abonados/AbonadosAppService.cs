@@ -15,15 +15,19 @@ namespace WebCRUD_api.Features.Abonados
                 Nombre = "Juan Perez",
                 Identidad = "0801199012345",
                 Telefono = "9999-9999",
-                Email = "yyyyyy"
+                Saldo = 100.50,
+                Email = "yyyyyy",
+                Activo = true
             };
             Abonado abonado2 = new Abonado
             {
                 Id = 2,
                 Nombre = "Maria Lopez",
                 Identidad = "0801199012346",
+                Saldo = 75.25,
                 Telefono = "8888-8888",
-                Email = "zzzzzz"
+                Email = "zzzzzz",
+                Activo = false
             };
             Abonado abonado3 = new Abonado
             {
@@ -31,7 +35,9 @@ namespace WebCRUD_api.Features.Abonados
                 Nombre = "Carlos Gomez",
                 Identidad = "0801199012347",
                 Telefono = "7777-7777",
-                Email = "wwwwww"
+                Saldo= 50.75,
+                Email = "wwwwww",
+                Activo = false
             };
             domain = new AbonadosDomainService();
         }
